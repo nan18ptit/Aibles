@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <title>It's about me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #myHeader {
+
+            background-color: #eecfed;
+            color: black;
+            height: 250px;
+            text-align: center;
+
+        }
+
+        img {
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            padding: 10px;
+        }
+
+        .section {
+            float: left;
+            width: 30%;
+            height: 130px;
+            background: #eecfed;
+            padding: 30px;
+            margin: 0%;
+        }
+
+        .content {
+            list-style-type: square;
+            list-style-position: inside;
+            float: left;
+            padding: 15px;
+            width: 70%;
+            height: 130px;
+            background-color: #fdeaf5;
+            margin: 0%;
+            line-height: 140%;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="myHeader">
+        <div style="float: left; width: 30%; ">
+            <img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t1.6435-9/203642387_1252159388572963_7879497342500836470_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=174925&_nc_ohc=E1Ow5qa55awAX80M-Ux&_nc_ht=scontent.fhan14-1.fna&oh=8ba1822e72c374f483e84d9d88672aac&oe=614F6D9E"
+                alt="Ảnh của Ngọc Anh" width="250" height="250">
+        </div>
+        <div style=" float: left; width: 30%; padding: 40px;">
+            <h1> Introduce Myself </h1>
+            <h3> Nguyen Ngoc Anh </h3>
+            <h3> ATTT - PTIT </h3>
+        </div>
+    </header>
+    <hr color="pink" />
+
+    <main>
+        <div>
+            <h2 class="section"> Thông tin cơ bản: </h2>
+            <ul class="content">
+                <li>Họ và Tên: <i>Nguyễn Ngọc Anh</i></li>
+                <li>Tên thường gọi: <i>Ngọccccc</i></li>
+                <li>Ngày sinh: <i>25/05/2000</i></li>
+                <li>Quê quán: <i>Bắc Giang</i></li>
+                <li>Tình trạng: <i>Hẹn hò vui lắm</i></li>
+            </ul>
+        </div>
+        <hr color="pink" />
+        <div>
+            <h2 class="section"> Học Vấn: </h2>
+            <ul class="content">
+                <li> Trường Học: <i> Học viện Công nghệ Bưu Chính Viễn Thông</i></li>
+                <li> Chuyên ngành: <i> An Toàn Thông Tin - Khoa Công Nghệ Thông Tin</i> </li>
+            </ul>
+        </div>
+        <hr color="pink" />
+        <div>
+            <h2 class="section"> Thế Mạnh: </h2>
+            <ul class="content">
+                <li> Sở Thích: <i> Đọc sách phát triển bản thân, nghe nhạc... </i></li>
+                <li> Sở Trường: <i> Nấu ăn, đã chơi là chơi hết mình, chăm chỉ... </i></li>
+                <li> Mục Tiêu: <i> FrontEnd Developer </i></li>
+            </ul>
+        </div>
+        <hr color="pink" />
+    </main>
+
+    <footer>
+        <h2 class="section">Thông Tin Liên Hệ:</h2>
+        <ul class="content">
+            <li>
+                Facebook: <a href="https://www.facebook.com/ngoc.nganh.2503" title="Go to my facebook"
+                    target="_blank"><i>Nguyen Ngọc Anh</i> </a>
+            </li>
+            <li>
+                Gmail: <a href="mailto:bg98ngocanh@gmail.com" title="Send email for me">
+                    <i>bg98ngocanh@gmail.com</i></a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
